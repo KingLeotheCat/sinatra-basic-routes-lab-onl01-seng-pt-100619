@@ -4,3 +4,6 @@ class App < Sinatra::Base
 end
 
 
+get 'name' do
+  "Hello, World!"
+end
